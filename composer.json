@@ -7,6 +7,11 @@
             "Af\\TestPackage\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Af\\TestPackage\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Faruque5698",
@@ -14,6 +19,7 @@
         }
     ],
     "require-dev": {
-        "orchestra/testbench": "^8.13"
+        "orchestra/testbench": "^8.13",
+        "phpunit/phpunit": "^10.4"
     }
 }

@@ -1,0 +1,19 @@
+{
+    "name": "af/test-package",
+    "description": "Test for package development for laravel framework.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Af\\TestPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Faruque5698",
+            "email": "ashaduzzaman5698@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.13"
+    }
+}
